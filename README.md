@@ -3,6 +3,6 @@
 [GitHub](https://github.com/reevafaisal)
 
 ## Projects
-Computer Vision | [github_repository](https://github.com/user-attachments/assets/4ffcce0d-8a95-4333-ada5-b8607b42b549) | 06/2023  
-Worked in a team of 2 to build an image processing app that stores images in code and implements some image processing methods in a Processor Template. Uses inheritance to simulate a monetized app and to simulate a premium app with new methods. Implements a KNN classifier to predict the labels of images. Personally, built a UI to optimize user experience and track image processing costs.
+Computer Vision | [Website](https://github.com/user-attachments/assets/4ffcce0d-8a95-4333-ada5-b8607b42b549) | [ReadMe](https://github.com/user-attachments/assets/4ffcce0d-8a95-4333-ada5-b8607b42b549) | 06/2023  
+Collaborated in a team of two to design and implement an image processing application. Leveraged object-oriented programming and inheritance to simulate a monetized structure, enabling premium features for advanced image processing tasks for the original class project. Integrated a KNN classifier for image label prediction. Voluntarily developed both a GUI and a CLI to enhance user interaction, streamline processing workflows, and track image processing costs, optimizing user experience across multiple interfaces. 
 
