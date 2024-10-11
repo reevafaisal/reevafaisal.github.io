@@ -8,8 +8,6 @@ My current project involves creating and adding a new tutorial mode functionalit
 
 DIY Hazelnut| [GitHub Repo](https://github.com/reevafaisal/diyHazelnut) | 06/2024  
 An implementation of Hazelnut: A Bidirectionally Typed Structure Editor Calculus. Implemented core features of Hazelnut in Reason (OCaml), focusing on bidirectional type synthesis and cursor erasure for functional expressions. Developed key modules for handling higher-order types, expressions, and their cursors, ensuring accurate type compatibility. The building of a hazelnut expression and its type synthesis can be viewed by using the webapp.
-![image](https://github.com/user-attachments/assets/53307fc0-8ec6-43a2-97ca-3be35d020ea0)
-
 
 Image Processing App | [Website](https://reevafaisal.pythonanywhere.com/) | [ReadMe](https://github.com/user-attachments/assets/4ffcce0d-8a95-4333-ada5-b8607b42b549) | 06/2023  
 Collaborated in a team of two to design and implement an image processing application. Leveraged object-oriented programming and inheritance to simulate a monetized structure, enabling premium features for advanced image processing tasks for the original class project. Integrated a KNN classifier for image label prediction. Voluntarily developed both a GUI and a CLI to enhance user interaction, streamline processing workflows, and track image processing costs, optimizing user experience across multiple interfaces. 
