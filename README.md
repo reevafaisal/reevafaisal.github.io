@@ -7,6 +7,7 @@ Hazel - Tutorial Systems | [GitHub Repo](https://github.com/hazelgrove/hazel/pul
 My current project involves creating and adding a new tutorial mode functionality to Hazel for new users to adapt to the interface. I am working with editor states and ensuring that new users can interact with and receive feedback for their code to familiarize themselves with the syntax and functionality of the programming environment. (PI: Cyrus Omar, Assistant Professor).
 <p>
   <img src="Screenshot 2024-10-11 at 7.53.01 PM.png" alt="Image 1" width="300px">
+  <img src="Screenshot 2024-10-11 at 7.52.12 PM.png" alt="Image 1" width="300px">
 </p>
 
 DIY Hazelnut | [GitHub Repo](https://github.com/reevafaisal/diyHazelnut) | 06/2024  
