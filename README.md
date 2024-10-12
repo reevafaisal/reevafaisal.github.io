@@ -10,7 +10,7 @@ My current project involves creating and adding a new tutorial mode functionalit
 </p>
 
 Insta485 Client-Side Web Application | [Insta485 WebApp](http://ec2-18-219-187-14.us-east-2.compute.amazonaws.com/) | 10/2024  
-Developed an Instagram clone as part of a three-project sequence for EECS 485, focusing on building client-side dynamic pages using JavaScript, React, and AJAX. Refactored the server-side logic from Flask into a REST API to handle asynchronous data requests, enabling real-time updates for user interactions such as likes, comments, and infinite scrolling without page reloads. The project also includes features like double-click to like and seamless data fetching. The following credentials can be used to test the system, username: awdeorio, password: chickens. For any other users on the app, the password for login in "password".
+Developed an Instagram clone as part of a three-project sequence for EECS 485, focusing on building client-side dynamic pages using JavaScript, React, and AJAX. Refactored the server-side logic from Flask into a REST API to handle asynchronous data requests, enabling real-time updates for user interactions such as likes, comments, and infinite scrolling without page reloads. The project also includes features like double-click to like and seamless data fetching. The following credentials can be used to test the system, username: awdeorio, password: chickens. For any other users on the app, the password for login is "password".
 ![Vid1](demo-infinitescroll-ezgif.com-video-to-gif-converter.gif)
 ![Vid2](demo-insta485-heart-ezgif.com-video-to-gif-converter.gif)
 
