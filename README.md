@@ -11,10 +11,10 @@ My current project involves creating and adding a new tutorial mode functionalit
 
 EDA and Visualizations Toolkit | 09/2024
 As part of our coursework (EECS 398), we used the Electoral College dataset to analyze the impact of the Electoral College on election outcomes, including the difference between popular votes and Electoral College votes, and how it determines the U.S. presidential election results. Cleaned and processed university data from the LendingClub dataset by handling missing values for key metrics including alumni employment and overall score. Developed interactive visualizations using Plotly to compare public and private universities, analyzing relationships between alumni employment rankings and overall institutional scores.
-<iframe src="votes_chloropleth.html" width="50%" height="300px" frameborder="0" scrolling="no"></iframe>
-<iframe src="loans_box.html" width="50%" height="300px" frameborder="0" scrolling="no"></iframe>
-<iframe src="loans_comp.html" width="50%" height="300px" frameborder="0" scrolling="no"></iframe>
-<iframe src="loans_scatter.html" width="50%" height="300px" frameborder="0" scrolling="no"></iframe>
+<iframe src="votes_chloropleth.html" width="50%" height="150px" frameborder="0" scrolling="no"></iframe>
+<iframe src="loans_box.html" width="50%" height="150px" frameborder="0" scrolling="no"></iframe>
+<iframe src="loans_comp.html" width="50%" height="150px" frameborder="0" scrolling="no"></iframe>
+<iframe src="loans_scatter.html" width="50%" height="150px" frameborder="0" scrolling="no"></iframe>
 
 
 DIY Hazelnut | [GitHub Repo](https://github.com/reevafaisal/diyHazelnut) | 06/2024  
