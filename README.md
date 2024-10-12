@@ -1,4 +1,4 @@
-[![Email](https://img.icons8.com/ios-glyphs/30/000000/new-post.png)](mailto:reevaf@umich.com)
+[![Email](https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png)](mailto:reevaf@umich.com)
 [![LinkedIn](https://img.icons8.com/ios-glyphs/30/000000/linkedin.png)](https://www.linkedin.com/in/reeva-faisal/)
 [![GitHub](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/reevafaisal)
 
