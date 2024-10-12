@@ -4,8 +4,8 @@
 <a href="https://www.linkedin.com/in/reeva-faisal/">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png" alt="LinkedIn" height="30">
 </a>
-<a href="https://www.linkedin.com/in/reeva-faisal/">
-  <img src="https://www.shareicon.net/download/2016/11/14/852447_square.svg" alt="LinkedIn" height="30">
+<a href="https://github.com/reevafaisal">
+  <img src="https://static-00.iconduck.com/assets.00/github-color-icon-512x499-ul54ffr0.png" alt="LinkedIn" height="30">
 </a>
 
 ## Projects
