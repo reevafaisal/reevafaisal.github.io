@@ -1,5 +1,5 @@
 <a href="mailto:reevaf@umich.com">
-  <img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="Email">
+  <img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="Email" height="30">
 </a>
 <a href="https://www.linkedin.com/in/reeva-faisal/">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png" alt="LinkedIn" width="30" height="30">
