@@ -1,12 +1,6 @@
-<a href="mailto:reevaf@umich.com">
-  <img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="Email" height="30">
-</a>
-<a href="https://www.linkedin.com/in/reeva-faisal/">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png" alt="LinkedIn" height="30">
-</a>
-<a href="https://github.com/reevafaisal">
-  <img src="https://static-00.iconduck.com/assets.00/github-color-icon-512x499-ul54ffr0.png" alt="LinkedIn" height="30">
-</a>
+[![GitHub](assets/images/github-black.png)](https://github.com/reevafaisal)
+[![LinkedIn](assets/images/linkedin-blue.png)](https://www.linkedin.com/in/reeva-faisal/)
+[![Email](assets/images/email-red.png)](mailto:reevaf@umich.com)
 
 ## Projects
 ### Hazel - Tutorial Systems 
