@@ -18,6 +18,10 @@ Developed an Instagram clone as part of a three-project sequence for EECS 485, f
   <img src="demo-insta485-heart-ezgif.com-video-to-gif-converter.gif" width="240px">
 </p>
 
+### Data Retrieval and Parsing Using Web Scraping and APIs
+#### [Online BookStore](https://books.toscrape.com/) | [Financial Modelling Prep](https://site.financialmodelingprep.com/playground?url=daily-chart-charts)
+Developed and implemented solutions for extracting and parsing data from various sources using both web scraping and APIs. Utilized depth-first search (DFS) to handle hierarchical data structures like comment threads from Hacker News, transforming JSON data into structured DataFrames for analysis. Worked with both HTML parsing and API calls to collect, clean, and organize data by scraping a fake online bookstore and by using the Financial Modelling Prep API, ensuring accuracy and handling edge cases such as dead comments. 
+
 ### EDA and Visualizations Toolkit 
 #### [Electoral College dataset](https://readysignal.com/electoral-college-data-table/) | [LendingClub dataset](https://github.com/sethns/Data-Preprocessing-in-Python/tree/main) | 09/2024  
 As part of our coursework (EECS 398), we used the Electoral College dataset to analyze the impact of the Electoral College on election outcomes, including the difference between popular votes and Electoral College votes, and how it determines the U.S. presidential election results. Cleaned and processed university data from the LendingClub dataset by handling missing values for key metrics including alumni employment and overall score. Developed interactive visualizations using Plotly to compare public and private universities, analyzing relationships between alumni employment rankings and overall institutional scores.
