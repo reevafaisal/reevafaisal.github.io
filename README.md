@@ -21,6 +21,9 @@ Developed an Instagram clone as part of a three-project sequence for EECS 485, f
 ### Data Retrieval and Parsing Using Web Scraping and APIs
 #### [Online BookStore](https://books.toscrape.com/) | [Financial Modelling Prep](https://site.financialmodelingprep.com/playground?url=daily-chart-charts)
 Developed and implemented solutions for extracting and parsing data from various sources using both web scraping and APIs. Utilized depth-first search (DFS) to handle hierarchical data structures like comment threads from Hacker News, transforming JSON data into structured DataFrames for analysis. Worked with both HTML parsing and API calls to collect, clean, and organize data by scraping a fake online bookstore and by using the Financial Modelling Prep API, ensuring accuracy and handling edge cases such as dead comments. 
+<p> 
+  <img src="Screenshot 2024-10-12 at 2.56.08 PM.png" width="100%">
+</p>
 
 ### EDA and Visualizations Toolkit 
 #### [Electoral College dataset](https://readysignal.com/electoral-college-data-table/) | [LendingClub dataset](https://github.com/sethns/Data-Preprocessing-in-Python/tree/main) | 09/2024  
