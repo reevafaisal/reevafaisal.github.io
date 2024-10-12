@@ -4,7 +4,9 @@
 <a href="https://www.linkedin.com/in/reeva-faisal/">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png" alt="LinkedIn" height="30">
 </a>
-[![GitHub](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/reevafaisal)
+<a href="https://www.linkedin.com/in/reeva-faisal/">
+  <img src="https://www.shareicon.net/download/2016/11/14/852447_square.svg" alt="LinkedIn" height="30">
+</a>
 
 ## Projects
 ### Hazel - Tutorial Systems 
