@@ -3,4 +3,4 @@ github_button: true
 
 # Provide the correct repository URL
 repository: https://github.com/reevafaisal/reevafaisal.github.io
-theme: jekyll-theme-cayman-blog
+theme: jekyll-theme-cayman
