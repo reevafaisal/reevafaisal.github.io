@@ -8,7 +8,8 @@
 My current project involves creating and adding a new tutorial mode functionality to Hazel for new users to adapt to the interface. I am working with editor states and ensuring that new users can interact with and receive feedback for their code to familiarize themselves with the syntax and functionality of the programming environment. (PI: Cyrus Omar, Assistant Professor).
 <p>
   <iframe src="https://hazel.org/build/dev/" width="100%" height="250" frameborder="0" scrolling="yes"></iframe>  
-</p>
+</p>  
+technologies: OCaml, Reason
 
 ### Insta485 Client-Side Web Application 
 #### [Insta485 WebApp](http://ec2-18-219-187-14.us-east-2.compute.amazonaws.com/) | 10/2024  
@@ -16,7 +17,9 @@ Developed an Instagram clone as part of a three-project sequence for EECS 485, f
 <p>
   <img src="demo-infinitescroll-ezgif.com-video-to-gif-converter.gif" width="240px">
   <img src="demo-insta485-heart-ezgif.com-video-to-gif-converter.gif" width="240px">
-</p>
+</p>  
+technologies: Python, SQL, HTML, CSS, JavaScript, React, Flask, AWS  
+
 
 ### Data Retrieval and Parsing Using Web Scraping and APIs
 #### [Online BookStore](https://books.toscrape.com/) | [Financial Modelling Prep](https://site.financialmodelingprep.com/playground?url=daily-chart-charts)
@@ -24,7 +27,8 @@ Developed and implemented solutions for extracting and parsing data from various
 <p> 
   <img src="Screenshot 2024-10-12 at 2.56.08 PM.png" width="100%">
   <img src="Screenshot 2024-10-12 at 2.56.49 PM.png" width="100%"> 
-</p>
+</p>  
+technologies: Python, Pandas, NumPy, JSON, HTML
 
 ### EDA and Visualizations Toolkit 
 #### [Electoral College dataset](https://readysignal.com/electoral-college-data-table/) | [LendingClub dataset](https://github.com/sethns/Data-Preprocessing-in-Python/tree/main) | 09/2024  
@@ -40,16 +44,19 @@ As part of our coursework (EECS 398), we used the Electoral College dataset to a
 
 <div style="margin-bottom: 5px;">
   <iframe src="loans_comp.html" width="100%" height="400px" frameborder="0" scrolling="yes" style="margin-bottom: 5px;"></iframe>
-</div>
+</div>  
+technologies: Python, Pandas, NumPy, Plotly 
 
 ### DIY Hazelnut 
 #### [GitHub Repo](https://github.com/reevafaisal/diyHazelnut) | 06/2024  
-An implementation of Hazelnut: A Bidirectionally Typed Structure Editor Calculus. Implemented core features of Hazelnut in Reason (OCaml), focusing on bidirectional type synthesis and cursor erasure for functional expressions. Developed key modules for handling higher-order types, expressions, and their cursors, ensuring accurate type compatibility. The building of a hazelnut expression and its type synthesis can be viewed by using the webapp.
+An implementation of Hazelnut: A Bidirectionally Typed Structure Editor Calculus. Implemented core features of Hazelnut in Reason (OCaml), focusing on bidirectional type synthesis and cursor erasure for functional expressions. Developed key modules for handling higher-order types, expressions, and their cursors, ensuring accurate type compatibility. The building of a hazelnut expression and its type synthesis can be viewed by using the webapp.  
+technologies: Reason  
 
 ### Image Processing App 
 #### [Website](https://reevafaisal.pythonanywhere.com/) | [ReadMe](https://github.com/reevafaisal/Image_Processing_ObjectOrientedProgramming) | 06/2023  
 Collaborated in a team of two to design and implement an image processing application. Leveraged object-oriented programming and inheritance to simulate a monetized structure, enabling premium features for advanced image processing tasks for the original class project. Integrated a KNN classifier for image label prediction. Voluntarily developed both a GUI and a CLI to enhance user interaction, streamline processing workflows, and track image processing costs, optimizing user experience across multiple interfaces. 
-<iframe src="https://reevafaisal.pythonanywhere.com" width="100%" height="250" frameborder="0" scrolling="yes"></iframe>  
+<iframe src="https://reevafaisal.pythonanywhere.com" width="100%" height="250" frameborder="0" scrolling="yes"></iframe>   
+technologies: Python, HTML, CSS, Jinja, Flask 
 
 
 
