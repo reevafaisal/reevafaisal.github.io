@@ -4,5 +4,5 @@ github_button: true
 
 # Provide the correct repository URL
 repository: https://github.com/reevafaisal/reevafaisal.github.io
-theme: jekyll-theme-time machine
+theme: jekyll-theme-time-machine
 
