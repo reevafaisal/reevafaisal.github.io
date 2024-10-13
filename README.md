@@ -50,7 +50,8 @@ Technologies: Python, Pandas, NumPy, Plotly
 ### DIY Hazelnut 
 #### [GitHub Repo](https://github.com/reevafaisal/diyHazelnut) | 06/2024  
 An implementation of Hazelnut: A Bidirectionally Typed Structure Editor Calculus. Implemented core features of Hazelnut in Reason (OCaml), focusing on bidirectional type synthesis and cursor erasure for functional expressions. Developed key modules for handling higher-order types, expressions, and their cursors, ensuring accurate type compatibility. The building of a hazelnut expression and its type synthesis can be viewed by using the webapp.  
-technologies: Reason  
+  
+Technologies: Reason  
 
 ### Image Processing App 
 #### [Website](https://reevafaisal.pythonanywhere.com/) | [ReadMe](https://github.com/reevafaisal/Image_Processing_ObjectOrientedProgramming) | 06/2023  
