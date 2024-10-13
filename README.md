@@ -9,7 +9,7 @@ My current project involves creating and adding a new tutorial mode functionalit
 <p>
   <iframe src="https://hazel.org/build/dev/" width="100%" height="250" frameborder="0" scrolling="yes"></iframe>  
 </p>  
-technologies: OCaml, Reason
+Technologies: OCaml, Reason
 
 ### Insta485 Client-Side Web Application 
 #### [Insta485 WebApp](http://ec2-18-219-187-14.us-east-2.compute.amazonaws.com/) | 10/2024  
@@ -18,7 +18,7 @@ Developed an Instagram clone as part of a three-project sequence for EECS 485, f
   <img src="demo-infinitescroll-ezgif.com-video-to-gif-converter.gif" width="240px">
   <img src="demo-insta485-heart-ezgif.com-video-to-gif-converter.gif" width="240px">
 </p>  
-technologies: Python, SQL, HTML, CSS, JavaScript, React, Flask, AWS  
+Technologies: Python, SQL, HTML, CSS, JavaScript, React, Flask, AWS  
 
 
 ### Data Retrieval and Parsing Using Web Scraping and APIs
@@ -28,7 +28,7 @@ Developed and implemented solutions for extracting and parsing data from various
   <img src="Screenshot 2024-10-12 at 2.56.08 PM.png" width="100%">
   <img src="Screenshot 2024-10-12 at 2.56.49 PM.png" width="100%"> 
 </p>  
-technologies: Python, Pandas, NumPy, JSON, HTML
+Technologies: Python, Pandas, NumPy, JSON, HTML
 
 ### EDA and Visualizations Toolkit 
 #### [Electoral College dataset](https://readysignal.com/electoral-college-data-table/) | [LendingClub dataset](https://github.com/sethns/Data-Preprocessing-in-Python/tree/main) | 09/2024  
@@ -45,7 +45,7 @@ As part of our coursework (EECS 398), we used the Electoral College dataset to a
 <div style="margin-bottom: 5px;">
   <iframe src="loans_comp.html" width="100%" height="400px" frameborder="0" scrolling="yes" style="margin-bottom: 5px;"></iframe>
 </div>  
-technologies: Python, Pandas, NumPy, Plotly 
+Technologies: Python, Pandas, NumPy, Plotly 
 
 ### DIY Hazelnut 
 #### [GitHub Repo](https://github.com/reevafaisal/diyHazelnut) | 06/2024  
@@ -56,7 +56,7 @@ technologies: Reason
 #### [Website](https://reevafaisal.pythonanywhere.com/) | [ReadMe](https://github.com/reevafaisal/Image_Processing_ObjectOrientedProgramming) | 06/2023  
 Collaborated in a team of two to design and implement an image processing application. Leveraged object-oriented programming and inheritance to simulate a monetized structure, enabling premium features for advanced image processing tasks for the original class project. Integrated a KNN classifier for image label prediction. Voluntarily developed both a GUI and a CLI to enhance user interaction, streamline processing workflows, and track image processing costs, optimizing user experience across multiple interfaces. 
 <iframe src="https://reevafaisal.pythonanywhere.com" width="100%" height="250" frameborder="0" scrolling="yes"></iframe>   
-technologies: Python, HTML, CSS, Jinja, Flask 
+Technologies: Python, HTML, CSS, Jinja, Flask 
 
 
 
