@@ -3,12 +3,21 @@
 [![GitHub](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/reevafaisal)
 
 ## Projects
-### Hazel - Tutorial Systems 
+### Future of Programming Lab
+#### Hazel - Tutorial Systems 
 #### [GitHub Repo](https://github.com/hazelgrove/hazel/pull/1330) | [PR](https://github.com/hazelgrove/hazel/pull/1330) | 07/2024 – present  
 My current project involves creating and adding a new tutorial mode functionality to Hazel for new users to adapt to the interface. I am working with editor states and ensuring that new users can interact with and receive feedback for their code to familiarize themselves with the syntax and functionality of the programming environment. (PI: Cyrus Omar, Assistant Professor).
 <p>
   <iframe src="https://hazel.org/build/dev/" width="100%" height="400" frameborder="0" scrolling="yes"></iframe>  
-</p>  
+</p> 
+
+<p>
+### DIY Hazelnut 
+#### [GitHub Repo](https://github.com/reevafaisal/diyHazelnut) | 06/2024  
+An implementation of Hazelnut: A Bidirectionally Typed Structure Editor Calculus. Implemented core features of Hazelnut in Reason (OCaml), focusing on bidirectional type synthesis and cursor erasure for functional expressions. Developed key modules for handling higher-order types, expressions, and their cursors, ensuring accurate type compatibility. The building of a hazelnut expression and its type synthesis can be viewed by using the webapp.  
+  
+Technologies: Reason  
+</p>
 Technologies: OCaml, Reason
 
 ### Insta485 Client-Side Web Application 
@@ -46,12 +55,6 @@ As part of our coursework (EECS 398), we used the Electoral College dataset to a
   <iframe src="loans_comp.html" width="100%" height="400px" frameborder="0" scrolling="yes" style="margin-bottom: 5px;"></iframe>
 </div>  
 Technologies: Python, Pandas, NumPy, Plotly 
-
-### DIY Hazelnut 
-#### [GitHub Repo](https://github.com/reevafaisal/diyHazelnut) | 06/2024  
-An implementation of Hazelnut: A Bidirectionally Typed Structure Editor Calculus. Implemented core features of Hazelnut in Reason (OCaml), focusing on bidirectional type synthesis and cursor erasure for functional expressions. Developed key modules for handling higher-order types, expressions, and their cursors, ensuring accurate type compatibility. The building of a hazelnut expression and its type synthesis can be viewed by using the webapp.  
-  
-Technologies: Reason  
 
 ### Image Processing App 
 #### [Website](https://reevafaisal.pythonanywhere.com/) | [ReadMe](https://github.com/reevafaisal/Image_Processing_ObjectOrientedProgramming) | 06/2023  
