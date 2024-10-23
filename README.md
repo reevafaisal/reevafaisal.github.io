@@ -31,33 +31,38 @@ Technologies: Python, SQL, HTML, CSS, JavaScript, React, Flask, AWS
 
 ## Data Retrieval and Parsing using Web Scraping and APIs
 #### [Online BookStore](https://books.toscrape.com/) | [Financial Modelling Prep](https://site.financialmodelingprep.com/playground?url=daily-chart-charts)
-Developed and implemented solutions for extracting and parsing data from various sources using both web scraping and APIs. Utilized depth-first search (DFS) to handle hierarchical data structures like comment threads from Hacker News, transforming JSON data into structured DataFrames for analysis. Worked with both HTML parsing and API calls to collect, clean, and organize data by scraping a fake online bookstore and by using the Financial Modelling Prep API, ensuring accuracy and handling edge cases such as dead comments. 
+Developed and implemented solutions for extracting and parsing data from various sources using both web scraping and APIs. Utilized depth-first search (DFS) to handle hierarchical data structures, transforming JSON data into structured DataFrames for analysis. Leveraged Python and BeautifulSoup for HTML parsing, along with API calls to collect, clean, and organize data from sources such as a fake online bookstore and the Financial Modelling Prep API. Ensured data accuracy by handling edge cases, such as missing or incomplete records.
 <p> 
   <img src="Screenshot 2024-10-12 at 2.56.08 PM.png" width="100%">
   <img src="Screenshot 2024-10-12 at 2.56.49 PM.png" width="100%"> 
 </p>  
-Technologies: Python, Pandas, NumPy, JSON, HTML
+Technologies: Python, Pandas, NumPy, Beautiful Soup, JSON, HTML
 
 ## EDA and Visualizations Toolkit 
-#### [Electoral College dataset](https://readysignal.com/electoral-college-data-table/) | [LendingClub dataset](https://github.com/sethns/Data-Preprocessing-in-Python/tree/main) | 09/2024  
-As part of our coursework (EECS 398), we used the Electoral College dataset to analyze the impact of the Electoral College on election outcomes, including the difference between popular votes and Electoral College votes, and how it determines the U.S. presidential election results. Cleaned and processed university data from the LendingClub dataset by handling missing values for key metrics including alumni employment and overall score. Developed interactive visualizations using Plotly to compare public and private universities, analyzing relationships between alumni employment rankings and overall institutional scores.
+09/2024  
+As part of our coursework (EECS 398), we used the [Electoral College dataset](https://readysignal.com/electoral-college-data-table/) to analyze the impact of the Electoral College on election outcomes. We first calculated which party won the most votes in each state and then the total number of electoral votes won by each party assuming that the Electoral College in Nebraska and New Hampshire also work similarly to other states as a simplifying assumption. We then used plotly to create a choropleth of the United States in which each 'state' is colored either blue or red, depending on whether the Democratic 'party' or Republican 'party' won the majority of votes in that 'state' in 2020. 
 
 <div style="margin-bottom: 5px;">
   <iframe src="votes_chloropleth1.html" width="100%" height="400px" frameborder="0" scrolling="yes" style="margin-bottom: 5px;"></iframe>
 </div>
 
+We employed the [LendingClub dataset](https://github.com/sethns/Data-Preprocessing-in-Python/tree/main) to visualize the relationship between interest rates and borrowers' debt-to-income (DTI) ratios. We place credit scores into four bins to visualize the distribution of interest rates separately for each credit score bin for a more comprehensive analysis. 
+
 <div style="margin-bottom: 5px;">
   <iframe src="loans_box.html" width="100%" height="400px" frameborder="0" scrolling="yes" style="margin-bottom: 5px;"></iframe>
 </div>
 
+Cleaned and processed [Universities dataset](https://www.kaggle.com/datasets/mylesoneill/world-university-rankings?datasetId=) by handling missing values for key metrics including names, national rankings, alumni employment and overall score. We then created a visualization to understand if schools with 'University of' in their name had a higher ranking than those without it.
+
 <div style="margin-bottom: 5px;">
   <iframe src="loans_comp.html" width="100%" height="400px" frameborder="0" scrolling="yes" style="margin-bottom: 5px;"></iframe>
 </div>  
+
 Technologies: Python, Pandas, NumPy, Plotly 
 
 ## Pixel Crafter 
 #### [Website](https://reevafaisal.pythonanywhere.com/) | [ReadMe](https://github.com/reevafaisal/Image_Processing_ObjectOrientedProgramming) | 06/2023  
-Collaborated in a team of two to design and implement an image processing application. Leveraged object-oriented programming and inheritance to simulate a monetized structure, enabling premium features for advanced image processing tasks for the original class project. Integrated a KNN classifier for image label prediction. Voluntarily developed both a GUI and a CLI to enhance user interaction, streamline processing workflows, and track image processing costs, optimizing user experience across multiple interfaces. 
+Collaborated in a team of two to design and implement an image-processing application. Leveraged object-oriented programming and inheritance to simulate a monetized structure, enabling premium features for advanced image processing tasks for the original class project. Integrated a KNN classifier for image label prediction. Voluntarily developed both a GUI and a CLI to enhance user interaction, streamline processing workflows, and track image processing costs, optimizing user experience across multiple interfaces. 
 <iframe src="https://reevafaisal.pythonanywhere.com" width="100%" height="400" frameborder="0" scrolling="yes"></iframe>   
 Technologies: Python, HTML, CSS, Jinja, Flask 
 
