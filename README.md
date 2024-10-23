@@ -39,7 +39,7 @@ Developed and implemented solutions for extracting and parsing data from various
 Technologies: Python, Pandas, NumPy, Beautiful Soup, JSON, HTML
 
 ## EDA and Visualizations Toolkit 
-09/2024  
+#### 09/2024  
 As part of our coursework (EECS 398), we used the [Electoral College dataset](https://readysignal.com/electoral-college-data-table/) to analyze the impact of the Electoral College on election outcomes. We first calculated which party won the most votes in each state and then the total number of electoral votes won by each party assuming that the Electoral College in Nebraska and New Hampshire also work similarly to other states as a simplifying assumption. We then used plotly to create a choropleth of the United States in which each 'state' is colored either blue or red, depending on whether the Democratic 'party' or Republican 'party' won the majority of votes in that 'state' in 2020. 
 
 <div style="margin-bottom: 5px;">
