@@ -30,8 +30,8 @@ Technologies: Python, SQL, HTML, CSS, JavaScript, React, Flask, AWS
 
 
 ## Data Retrieval and Parsing using Web Scraping and APIs
-#### [Online BookStore](https://books.toscrape.com/) | [Financial Modelling Prep](https://site.financialmodelingprep.com/playground?url=daily-chart-charts)
-Developed and implemented solutions for extracting and parsing data from various sources using both web scraping and APIs. Utilized depth-first search (DFS) to handle hierarchical data structures, transforming JSON data into structured DataFrames for analysis. Leveraged Python and BeautifulSoup for HTML parsing, along with API calls to collect, clean, and organize data from sources such as a fake online bookstore and the Financial Modelling Prep API. Ensured data accuracy by handling edge cases, such as missing or incomplete records.
+#### 09/2024 
+Developed and implemented solutions for extracting and parsing data from various sources using both web scraping and APIs. Utilized depth-first search (DFS) to handle hierarchical data structures, transforming JSON data into structured DataFrames for analysis. Leveraged Python and BeautifulSoup for HTML parsing, along with API calls to collect, clean, and organize data from sources such as a fake [online bookstore](https://books.toscrape.com/) and the [Financial Modelling Prep](https://site.financialmodelingprep.com/playground?url=daily-chart-charts) API. Ensured data accuracy by handling edge cases, such as missing or incomplete records.
 <p> 
   <img src="Screenshot 2024-10-12 at 2.56.08 PM.png" width="100%">
   <img src="Screenshot 2024-10-12 at 2.56.49 PM.png" width="100%"> 
