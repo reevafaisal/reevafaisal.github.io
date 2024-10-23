@@ -14,10 +14,8 @@ My current project involves creating and adding a new tutorial mode functionalit
 ### DIY Hazelnut 
 #### [GitHub Repo](https://github.com/reevafaisal/diyHazelnut) | 06/2024  
 An implementation of [Hazelnut: A Bidirectionally Typed Structure Editor Calculus](https://dl.acm.org/doi/10.1145/3009837.3009900). Implemented core features of Hazelnut in Reason (OCaml), focusing on bidirectional type synthesis and cursor erasure for functional expressions. Developed key modules for handling higher-order types, expressions, and their cursors, ensuring accurate type compatibility. The building of a hazelnut expression and its type synthesis can be viewed by using the webapp.  
-  
-Technologies: Reason  
-</p>
-Technologies: OCaml, Reason
+<p> 
+Technologies: OCaml, Reason</p>
 
 ### Insta485 Client-Side Web Application 
 #### [Insta485 WebApp](http://ec2-18-219-187-14.us-east-2.compute.amazonaws.com/) | 10/2024  
