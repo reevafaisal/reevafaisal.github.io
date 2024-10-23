@@ -20,7 +20,7 @@ An implementation of [Hazelnut: A Bidirectionally Typed Structure Editor Calculu
 Technologies: Reason</p>
 
 ## Insta485 Client-Side Web Application
-#### [Insta485 WebApp](http://ec2-18-219-187-14.us-east-2.compute.amazonaws.com/) | 10/2024  
+#### [Demo](http://ec2-18-219-187-14.us-east-2.compute.amazonaws.com/) | 10/2024  
 Developed an Instagram clone as part of a three-project sequence for EECS 485, focusing on building client-side dynamic pages using JavaScript, React, and AJAX. Refactored the server-side logic from Flask into a REST API to handle asynchronous data requests, enabling real-time updates for user interactions such as likes, comments, and infinite scrolling without page reloads. The project also includes features like double-click to like and seamless data fetching. The following credentials can be used to test the system, username: awdeorio, password: chickens. To login as any of the other users within the app, the password for login is "password".
 <p>
   <img src="demo-infinitescroll-ezgif.com-video-to-gif-converter.gif" width="240px">
@@ -61,7 +61,7 @@ Cleaned and processed [Universities dataset](https://www.kaggle.com/datasets/myl
 Technologies: Python, Pandas, NumPy, Plotly 
 
 ## Pixel Crafter 
-#### [Website](https://reevafaisal.pythonanywhere.com/) | [ReadMe](https://github.com/reevafaisal/Image_Processing_ObjectOrientedProgramming) | 06/2023  
+#### [Demo](https://reevafaisal.pythonanywhere.com/) | [ReadMe](https://github.com/reevafaisal/Image_Processing_ObjectOrientedProgramming) | 06/2023  
 Collaborated in a team of two to design and implement an image-processing application. Leveraged object-oriented programming and inheritance to simulate a monetized structure, enabling premium features for advanced image processing tasks for the original class project. Integrated a KNN classifier for image label prediction. Voluntarily developed both a GUI and a CLI to enhance user interaction, streamline processing workflows, and track image processing costs, optimizing user experience across multiple interfaces. 
 <iframe src="https://reevafaisal.pythonanywhere.com" width="100%" height="400" frameborder="0" scrolling="yes"></iframe>   
 Technologies: Python, HTML, CSS, Jinja, Flask 
