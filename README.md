@@ -5,7 +5,7 @@
 # Projects
 ## Future of Programming Lab
 ### Hazel - Tutorial Systems
-#### [GitHub Repo](https://github.com/hazelgrove/hazel/pull/1330) | [PR](https://github.com/hazelgrove/hazel/pull/1330) | 07/2024 – present  
+#### [GitHub Repo](https://github.com/hazelgrove/hazel/pull/1330) | 07/2024 – present  
 My current project involves creating and adding a new tutorial mode functionality to Hazel for new users to adapt to the interface. I am working with editor states and ensuring that new users can interact with and receive feedback for their code to familiarize themselves with the syntax and functionality of the programming environment. (PI: Cyrus Omar, Assistant Professor).
 <p>
   <iframe src="https://hazel.org/build/dev/" width="100%" height="400" frameborder="0" scrolling="yes"></iframe>  
@@ -61,13 +61,14 @@ Cleaned and processed [Universities dataset](https://www.kaggle.com/datasets/myl
 Technologies: Python, Pandas, NumPy, Plotly 
 
 ### TRAVELLING SALESMAN PROBLEM 
-06/2024                                                                                                
+#### 06/2024                                                                                                
 Applied branch and bound algorithm to solve TSP problem for complete weighted graph, used MST to get the lower bound for remaining cost, and explored various heuristic approaches to achieve a nearly-optimal solution. To find the optimal tour, we started with our nearly optimal solution and then employed the brute-force method of exhaustive enumeration to achieve the optimal path while being time efficient. 
 <p> 
   <img src="Screenshot 2024-11-06 at 10.37.14 AM.png" width="80%">
   <img src="Screenshot 2024-11-06 at 10.37.44 AM.png" width="80%"> 
 </p>  
 
+Technologies: C++
 
 
 ## Pixel Crafter 
