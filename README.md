@@ -63,7 +63,10 @@ Technologies: Python, Pandas, NumPy, Plotly
 ### TRAVELLING SALESMAN PROBLEM 
 06/2024                                                                                                
 Applied branch and bound algorithm to solve TSP problem for complete weighted graph, used MST to get the lower bound for remaining cost, and explored various heuristic approaches to achieve a nearly-optimal solution. To find the optimal tour, we started with our nearly optimal solution and then employed the brute-force method of exhaustive enumeration to achieve the optimal path while being time efficient. 
-<iframe src="EECS 281 Project 4 Visualizer.html" width="100%" height="400" frameborder="0" scrolling="yes"></iframe>   
+<p> 
+  <img src="Screenshot 2024-11-06 at 10.37.14 AM.png" width="100%">
+  <img src="Screenshot 2024-11-06 at 10.37.44 AM.png" width="100%"> 
+</p>  
 
 
 
