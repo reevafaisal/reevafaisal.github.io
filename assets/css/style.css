@@ -5,7 +5,7 @@
 
 // Disable smooth scroll to prevent jumping to the top on anchor links
 html {
-  scroll-behavior: auto;
+  scroll-behavior: false;
 }
 
 // Optional: Offset anchor targets to prevent content from being hidden behind fixed headers
