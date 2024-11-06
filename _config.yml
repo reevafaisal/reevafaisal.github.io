@@ -15,8 +15,10 @@ remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 platforms:
   - name: GitHub
     icon: <i class="fa-brands fa-github"></i>
-    link: https://github.com/vaibhavvikas
+    link: https://github.com/reevafaisal
   - name: LinkedIn
     icon: <i class="fa-brands fa-linkedin"></i>
-    link: https://www.linkedin.com/in/vaibhavvikas
-  - ...
+    link: https://www.linkedin.com/in/reeva-faisal/
+ - name: Email
+    icon: <i class="fa-solid fa-envelope"></i>
+    link: mailto:reevaf@umich.com
