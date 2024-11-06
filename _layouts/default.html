@@ -1,14 +1,19 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Add this script tag to your GitHub Pages HTML file
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll("a[href^='#']").forEach(anchor => {
-      anchor.addEventListener("click", function(event) {
-        event.preventDefault();
-        const targetID = anchor.getAttribute("href").substring(1);
-        const targetElement = document.getElementById(targetID);
+  window.addEventListener('DOMContentLoaded', function() {
+    if (window.location.hash) {
+      // Check if there's a hash in the URL (e.g., #section-id)
+      setTimeout(function() {
+        var targetElement = document.querySelector(window.location.hash);
         if (targetElement) {
-          targetElement.scrollIntoView({ behavior: "auto", block: "start" });
+          targetElement.scrollIntoView();
         }
-      });
-    });
+      }, 0); 
+    }
   });
 </script>
