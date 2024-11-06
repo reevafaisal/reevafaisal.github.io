@@ -9,7 +9,7 @@ repository: https://github.com/reevafaisal/reevafaisal.github.io
 # theme: jekyll-theme-minimal
 plugins:
   - jekyll-remote-theme
-color-scheme: auto
+color-scheme: light
 
 remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 
