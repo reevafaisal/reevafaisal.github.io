@@ -27,7 +27,7 @@ navigation:
   - name: Future of Programming Lab
     link: ./index.html#future-of-programming-lab
   - name: Insta485 Client-Side Web Application
-    link: ./index.html#insta485-client-Side-web-application
+    link: ./index.html#insta485-client-side-web-application
   - name: Data Retrieval and Parsing using Web Scraping and APIs
     link: ./index.html#data-retrieval-and-parsing-using-web-scraping-and-apis
   - name: EDA and Visualizations Toolkit
