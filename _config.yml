@@ -32,6 +32,8 @@ navigation:
     link: ./index.html#data-retrieval-and-parsing-using-web-scraping-and-apis
   - name: EDA and Visualizations Toolkit
     link: ./index.html#eda-and-visualizations-toolkit
+  - name: Travelling Salesman Problem
+    link: ./index.html#travelling-salesman-problem
   - name: Pixel Crafter
     link: ./index.html#pixel-crafter
   # - name: Insta485 Client-Side Web Application
