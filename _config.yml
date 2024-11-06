@@ -19,9 +19,9 @@ platforms:
   - name: LinkedIn
     icon: <i class="fa-brands fa-linkedin"></i>
     link: https://www.linkedin.com/in/reeva-faisal/
- - name: Email 
-    icon: "<img src='https://img.icons8.com/ios-glyphs/30/000000/new-post.png' alt='Email Icon' style='width: 20px; height: 20px;'>"
-    link: "mailto:reevaf@umich.com"
+ # - name: Email 
+ #    icon: "<img src='https://img.icons8.com/ios-glyphs/30/000000/new-post.png' alt='Email Icon' style='width: 20px; height: 20px;'>"
+ #    link: "mailto:reevaf@umich.com"
 
 navigation:
   - name: Future of Programming Lab
