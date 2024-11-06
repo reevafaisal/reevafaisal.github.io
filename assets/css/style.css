@@ -1,0 +1,14 @@
+@import "{{ site.theme }}";
+
+// Disable smooth scroll to prevent jumping to the top on anchor links
+html {
+  scroll-behavior: auto;
+}
+
+// Optional: Offset anchor targets to prevent content from being hidden behind fixed headers
+:target::before {
+  content: "";
+  display: block;
+  height: 80px; /* Adjust as needed based on header size */
+  margin-top: -80px;
+}
