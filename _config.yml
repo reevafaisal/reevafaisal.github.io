@@ -20,5 +20,5 @@ platforms:
     icon: <i class="fa-brands fa-linkedin"></i>
     link: https://www.linkedin.com/in/reeva-faisal/
  - name: Email
-    icon: <i class="fa-solid fa-envelope"></i>
+    icon: <i class="fa-solid fa-email"></i>
     link: mailto:reevaf@umich.com
