@@ -22,3 +22,17 @@ platforms:
  - name: Email 
     icon: <img src="https://img.icons8.com/ios-glyphs/30/000000/new-post.png" alt="Email Icon" style="width: 20px; height: 20px;">
     link: mailto:reevaf@umich.com
+
+navigation:
+  - name: Future of Programming Lab
+    link: ./index.html#Future of Programming Lab
+  - name: Insta485 Client-Side Web Application
+    link: ./index.html#Insta485 Client-Side Web Application
+  - name: Data Retrieval and Parsing using Web Scraping and APIs
+    link: ./index.html#Data Retrieval and Parsing using Web Scraping and APIs
+  - name: EDA and Visualizations Toolkit
+    link: ./index.html#EDA and Visualizations Toolkit
+   - name: Pixel Crafter
+    link: ./index.html#Pixel Crafter
+  # - name: Insta485 Client-Side Web Application
+  #   link: ./index.html#Insta485 Client-Side Web Application 
