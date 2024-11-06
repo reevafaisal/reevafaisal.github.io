@@ -1,0 +1,104 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css" integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.7/css/bootstrap-select.min.css" integrity="sha512-j4PXP3yDAtaLjz4bOHAGpjcjyn0PekprVzrPSDlckQCSuVbz1fkd3/uEpsBMBIBWBbTVaxHnUdkzBFV6e62F2g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/custom.css" />
+
+    <title>EECS 281 Project 4 Visualizer</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-dark" id="control">
+      <form id="fileForm" class="form-inline" method="post">
+        <div class="form-group">
+          <div class="input-group mx-sm-3 mb-2">
+            <label class="btn btn-primary input-group-prepend file-btn" for="inputGraphFile">
+              Input File
+            </label>
+            <input type="text" class="form-control" id="inputGraphFilename" name="inputGraphFilename" readonly>
+            <label class="btn btn-primary input-group-append file-btn" for="inputGraphFile">
+              <input type="file" class="form-control hidden-file-selector" id="inputGraphFile" name="inputGraphFile" required>
+              <span class="fas fa-file-import"></span>
+            </label>
+          </div>
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+          <div class="input-group">
+            <label class="btn btn-warning input-group-prepend file-btn" for="outputFile">
+              Output File
+            </label>
+            <input type="text" class="form-control" id="outputFilename" name="outputFilename" readonly>
+            <label id="outputFileButton" class="btn btn-warning input-group-append file-btn" for="outputFile">
+              <input type="file" class="form-control hidden-file-selector" id="outputFile" name="outputFile">
+              <span class="fas fa-file-import"></span>
+            </label>
+          </div>
+        </div>
+        
+        <div class="form-group mx-sm-3 mb-2">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                Graph Mode
+              </span>
+            </div>
+            
+            <select class="selectpicker form-control" id="outputMode" name="outputMode" data-width="fit">
+              <option>MST</option>
+              <option>TSP</option>
+            </select>
+          </div>
+        </div>
+        
+        <input type="submit" class="submit btn btn-success mb-2 mx-sm-3" id="visualize" value="Visualize" />
+        
+        <div class="dropdown mb-2 mx-sm-3">
+          <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Display Options
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <div class="px-4 py-3">
+              <div class="form-group">
+                <label for="node-size">Node Size</label>
+                <input type="range" class="form-control-range" name="node-size" id="node-size">
+                <label for="frame-duration">Frame Duration</label>
+                <input value="200" min="0.1" max="500" type="range" class="form-control-range" name="frame-duration" id="frame-duration">
+              </div>
+            </div>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" id="zoom-to-fit" href="#">Zoom to Fit</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" id="download-svg" href="#">Download SVG</a>
+            <a class="dropdown-item" id="download-png" href="#">Download PNG</a>
+          </div>
+        </div>
+      </form>
+    </nav>
+    <div class="container">
+      <div id="sample-dog" class="col-12"><img src="https://cdn-uploads.piazza.com/paste/k0612g58t2y29g/82b50d4dd4026fccbbbcee19dd54639a00cdbe1c4ae637ed28ac5b73a972bc42/dog.png" alt="dog"></div>
+      <div id="graph" class="col-12"></div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js" integrity="sha512-nnzkI2u2Dy6HMnzMIkh7CPd1KX445z38XIu4jG1jGw7x5tSL3VBjE44dY4ihMU1ijAQV930SPM12cCFrB18sVw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.min.js" integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" integrity="sha512-37T7leoNS06R80c8Ulq7cdCDU5MNQBwlYoy1TX/WUsLFC2eYNqtKlV0QjH7r8JpG/S0GUMZwebnVFLPd6SU5yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/additional-methods.min.js" integrity="sha512-XZEy8UQ9rngkxQVugAdOuBRDmJ5N4vCuNXCh8KlniZgDKTvf7zl75QBtaVG1lEhMFe2a2DuA22nZYY+qsI2/xA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.7/js/bootstrap-select.min.js" integrity="sha512-0lqb6AMvue1YXa1Vaxt82p6v9PYt4uagBP310R2DV28lBYaypUpPTmE09P8UozBTNtjhQm4BHeDtMBwZX6gTjg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/sigma.min.js" integrity="sha512-4+XX9O3GEcpTWGNW7m3w/ORF91L4zUX01/U3wAoWIXp1P+LRBEqutZdQIFUeHSa0cJRZ9LPM+GOWus8h8TlYhg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.exporters.svg.min.js" integrity="sha512-IbAQlrGEnp55edX0a9RwxGGS1F5qfmPlukd1zjrxbPEuIWwgTMrryaDTdL7zugFsWczRAd2Hq1C5L17jJGr27A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.renderers.snapshot.min.js" integrity="sha512-hRIEjoSHrn4AeSezC5FE4/5QjnuiV3CtsjBdrG8sE7Rvs+PZ6PpTggvcBcw8VSH5KyoBhTAbPeMsa9tokxQ0yw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="js/inputFileButton.js"></script>
+    <script src="js/visualize.js"></script>
+  </body>
+</html>
