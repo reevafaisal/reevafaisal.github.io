@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
       const targetID = anchor.getAttribute("href").substring(1);
       const targetElement = document.getElementById(targetID);
       if (targetElement) {
+        // Smooth scroll directly to the element without auto-scrolling
         targetElement.scrollIntoView({ behavior: "smooth", block: "start" });
       }
     });
