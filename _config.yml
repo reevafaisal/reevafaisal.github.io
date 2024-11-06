@@ -32,7 +32,7 @@ navigation:
     link: ./index.html#Data Retrieval and Parsing using Web Scraping and APIs
   - name: EDA and Visualizations Toolkit
     link: ./index.html#EDA and Visualizations Toolkit
-   - name: Pixel Crafter
+  - name: Pixel Crafter
     link: ./index.html#Pixel Crafter
   # - name: Insta485 Client-Side Web Application
   #   link: ./index.html#Insta485 Client-Side Web Application 
