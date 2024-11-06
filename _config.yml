@@ -12,6 +12,8 @@ plugins:
 color-scheme: light
 
 scrollable: false
+includes:
+  - assets/js/custom.js
 
 remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 # platforms:
