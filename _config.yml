@@ -11,6 +11,8 @@ plugins:
   - jekyll-remote-theme
 color-scheme: light
 
+scrollable: false
+
 remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 # platforms:
 #   - name: GitHub
