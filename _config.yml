@@ -11,7 +11,7 @@ plugins:
   - jekyll-remote-theme
 color-scheme: light
 
-scrollable: false
+{ scroll: false, shallow: true }
 includes:
   - assets/js/custom.js
 
