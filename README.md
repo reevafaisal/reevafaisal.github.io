@@ -1,7 +1,5 @@
 <Routes>
 <Routes preserveScrollPosition={false}>
-
-// after
 <Routes scrollStrategy='imitateBrowser'>
 
 [![Email](https://img.icons8.com/ios-glyphs/30/000000/new-post.png)](mailto:reevaf@umich.com)
