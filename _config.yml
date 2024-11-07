@@ -19,8 +19,8 @@ plugins:
 color-scheme: light
 
 # { scroll: false, shallow: true }
-includes:
-  - assets/js/custom.js
+# includes:
+#   - assets/js/custom.js
 
 remote_theme: reevafaisal/jekyll-theme-minimalistic
 # platforms:
