@@ -21,7 +21,7 @@ color-scheme: light
 includes:
   - assets/js/custom.js
 
-remote_theme: reevafaisal/jekyll-theme-minimal
+remote_theme: reevafaisal/minimal
 # platforms:
 #   - name: GitHub
 #     icon: <i class="fa-brands fa-github"></i>
