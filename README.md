@@ -1,5 +1,4 @@
 # Projects
-<section id="future-of-programming-lab">
 ## Future of Programming Lab
 ### Hazel - Tutorial Systems
 #### [GitHub Repo](https://github.com/hazelgrove/hazel/pull/1330) | 07/2024 – present  
@@ -9,16 +8,13 @@ My current project involves creating and adding a new tutorial mode functionalit
 </p> 
 <p> 
 Technologies: OCaml, Reason</p>
-</section>
 
 ### DIY Hazelnut
 #### [GitHub Repo](https://github.com/reevafaisal/diyHazelnut) | 06/2024  
 An implementation of [Hazelnut: A Bidirectionally Typed Structure Editor Calculus](https://dl.acm.org/doi/10.1145/3009837.3009900). Implemented core features of Hazelnut in Reason (OCaml), focusing on bidirectional type synthesis and cursor erasure for functional expressions. Developed key modules for handling higher-order types, expressions, and their cursors, ensuring accurate type compatibility. The building of a hazelnut expression and its type synthesis can be viewed by using the webapp.  
 <p> 
 Technologies: Reason</p>
-</section>
 
-<section id="insta485-client-side-web-application">
 ## Insta485 Client-Side Web Application
 #### [Demo](http://ec2-18-219-187-14.us-east-2.compute.amazonaws.com/) | 10/2024  
 Developed an Instagram clone as part of a three-project sequence for EECS 485, focusing on building client-side dynamic pages using JavaScript, React, and AJAX. Refactored the server-side logic from Flask into a REST API to handle asynchronous data requests, enabling real-time updates for user interactions such as likes, comments, and infinite scrolling without page reloads. The project also includes features like double-click to like and seamless data fetching. The following credentials can be used to test the system, username: awdeorio, password: chickens. To login as any of the other users within the app, the password for login is "password".
@@ -27,9 +23,7 @@ Developed an Instagram clone as part of a three-project sequence for EECS 485, f
   <img src="demo-insta485-heart-ezgif.com-video-to-gif-converter.gif" width="240px">
 </p>  
 Technologies: Python, SQL, HTML, CSS, JavaScript, React, Flask, AWS  
-</section>
 
-<section id="data-retrieval">
 ## Data Retrieval and Parsing using Web Scraping and APIs
 #### 09/2024 
 Developed and implemented solutions for extracting and parsing data from various sources using both web scraping and APIs. Utilized depth-first search (DFS) to handle hierarchical data structures, transforming JSON data into structured DataFrames for analysis. Leveraged Python and BeautifulSoup for HTML parsing, along with API calls to collect, clean, and organize data from sources such as a fake [online bookstore](https://books.toscrape.com/) and the [Financial Modelling Prep](https://site.financialmodelingprep.com/playground?url=daily-chart-charts) API. Ensured data accuracy by handling edge cases, such as missing or incomplete records.
@@ -38,9 +32,7 @@ Developed and implemented solutions for extracting and parsing data from various
   <img src="Screenshot 2024-10-12 at 2.56.49 PM.png" width="100%"> 
 </p>  
 Technologies: Python, Pandas, NumPy, Beautiful Soup, JSON, HTML
-</section>
 
-<section id="EDA">
 ## EDA and Visualizations Toolkit 
 #### 09/2024  
 As part of our coursework (EECS 398), we used the [Electoral College dataset](https://readysignal.com/electoral-college-data-table/) to analyze the impact of the Electoral College on election outcomes. We first calculated which party won the most votes in each state and then the total number of electoral votes won by each party assuming that the Electoral College in Nebraska and New Hampshire also work similarly to other states as a simplifying assumption. We then used plotly to create a choropleth of the United States in which each 'state' is colored either blue or red, depending on whether the Democratic 'party' or Republican 'party' won the majority of votes in that 'state' in 2020. 
@@ -62,9 +54,7 @@ Cleaned and processed [Universities dataset](https://www.kaggle.com/datasets/myl
 </div>  
 
 Technologies: Python, Pandas, NumPy, Plotly 
-</section>
 
-<section id="tsp">
 ## Travelling Salesman Problem
 #### 06/2024                                                                                                
 Applied branch and bound algorithm to solve TSP problem for complete weighted graph, used MST to get the lower bound for remaining cost, and explored various heuristic approaches to achieve a nearly-optimal solution. To find the optimal tour, we started with our nearly optimal solution and then employed the brute-force method of exhaustive enumeration to achieve the optimal path while being time efficient. 
@@ -74,15 +64,12 @@ Applied branch and bound algorithm to solve TSP problem for complete weighted gr
 </p>  
 
 Technologies: C++
-</section>
 
-<section id="pixel-crafter">
 ## Pixel Crafter 
 #### [Demo](https://reevafaisal.pythonanywhere.com/) | [ReadMe](https://github.com/reevafaisal/Image_Processing_ObjectOrientedProgramming) | 06/2023  
 Collaborated in a team of two to design and implement an image-processing application. Leveraged object-oriented programming and inheritance to simulate a monetized structure, enabling premium features for advanced image processing tasks for the original class project. Integrated a KNN classifier for image label prediction. Voluntarily developed both a GUI and a CLI to enhance user interaction, streamline processing workflows, and track image processing costs, optimizing user experience across multiple interfaces. 
 <iframe src="https://reevafaisal.pythonanywhere.com" width="100%" height="400" frameborder="0" scrolling="yes"></iframe>   
 Technologies: Python, HTML, CSS, Jinja, Flask 
-</section>
 
 
 
