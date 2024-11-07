@@ -8,7 +8,7 @@ github_button: true
 repository: https://github.com/reevafaisal/reevafaisal.github.io
 # theme: jekyll-theme-minimal
 favicon: true
-plugins:
+plugins: 
   - jekyll-remote-theme
 
 # plugins:
