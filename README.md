@@ -1,7 +1,7 @@
 # Projects
 ## Future of Programming Lab
 ### Hazel - Tutorial Systems
-#### [GitHub Repo](https://github.com/hazelgrove/hazel/pull/1330) | 07/2024 – present  
+#### [GitHub Repo](https://github.com/hazelgrove/hazel/pull/1330) | [PR](https://github.com/hazelgrove/hazel/pull/1414) | 07/2024 – present  
 My current project involves creating and adding a new tutorial mode functionality to Hazel for new users to adapt to the interface. I am working with editor states and ensuring that new users can interact with and receive feedback for their code to familiarize themselves with the syntax and functionality of the programming environment. (PI: Cyrus Omar, Assistant Professor).
 <p>
   <iframe src="https://hazel.org/build/dev/" width="100%" height="400" frameborder="0" scrolling="yes"></iframe>  
