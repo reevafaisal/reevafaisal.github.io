@@ -23,7 +23,7 @@ color-scheme: light
 #   - assets/js/custom.js
 
 # remote_theme: reevafaisal/hexo-theme-edinburgh
-remote_theme: reevafaisal/jekyll-theme-minimalistic
+remote_theme: reevafaisal/jekyll-theme-portfolios
 # platforms:
 #   - name: GitHub
 #     icon: <i class="fa-brands fa-github"></i>
