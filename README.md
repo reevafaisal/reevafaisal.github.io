@@ -28,6 +28,14 @@ Technologies: Python, SQL, HTML, CSS, JavaScript, React, Flask, AWS
 #### 09/2024 
 Developed and implemented solutions for extracting and parsing data from various sources using both web scraping and APIs. Utilized depth-first search (DFS) to handle hierarchical data structures, transforming JSON data into structured DataFrames for analysis. Leveraged Python and BeautifulSoup for HTML parsing, along with API calls to collect, clean, and organize data from sources such as a fake [online bookstore](https://books.toscrape.com/) and the [Financial Modelling Prep](https://site.financialmodelingprep.com/playground?url=daily-chart-charts) API. Ensured data accuracy by handling edge cases, such as missing or incomplete records.
 
+| UPC              | Product Type   | Price (excl. tax)   | Price (incl. tax)   | Tax    | Availability            |   Number of reviews | Category   | Rating   | Description                                           | Title                                                 |
+|:-----------------|:---------------|:--------------------|:--------------------|:-------|:------------------------|--------------------:|:-----------|:---------|:------------------------------------------------------|:------------------------------------------------------|
+| e10e1e165dc8be4a | Books          | Â£22.60             | Â£22.60             | Â£0.00 | In stock (19 available) |                   0 | Default    | Four     | For readers of Laura Hillenbrand's Seabiscuit and ... | The Boys in the Boat: Nine Americans and Their Epi... |
+| c2e46a2ee3b4a322 | Books          | Â£25.27             | Â£25.27             | Â£0.00 | In stock (19 available) |                   0 | Romance    | Five     | A Michelin two-star chef at twenty-eight, Violette... | Chase Me (Paris Nights #2)                            |
+| 00bfed9e18bb36f3 | Books          | Â£34.53             | Â£34.53             | Â£0.00 | In stock (19 available) |                   0 | Romance    | Five     | No matter how busy he keeps himself, successful Br... | Black Dust                                            |
+| 8c9e6bf2467d740d | Books          | Â£20.59             | Â£20.59             | Â£0.00 | In stock (16 available) |                   0 | Default    | Five     | Slay Procrastination, Distraction, and Overwhelm!W... | The Inefficiency Assassin: Time Management Tactics... |
+
+
 
 | date       |   open |   high |   low |   close |   adjClose |   volume |   unadjustedVolume |   change |   changePercent |    vwap | label         |   changeOverTime |
 |:-----------|-------:|-------:|------:|--------:|-----------:|---------:|-------------------:|---------:|----------------:|--------:|:--------------|-----------------:|
