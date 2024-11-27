@@ -37,7 +37,7 @@ Developed and implemented solutions for extracting and parsing data from various
 
 
 
-| date       |   open |   high |   low |   close |   adjClose |   volume |   unadjustedVolume |   change |   changePercent |    vwap | label         |   changeOverTime |
+|       date |   open |   high |   low |   close |   adjClose |   volume |   unadjustedVolume |   change |   changePercent |    vwap | label         |   changeOverTime |
 |:-----------|-------:|-------:|------:|--------:|-----------:|---------:|-------------------:|---------:|----------------:|--------:|:--------------|-----------------:|
 | 2024-08-30 |  11.15 |  11.23 | 11.06 |   11.19 |      11.04 | 44977100 |           44977100 |     0.04 |         0.35874 | 11.1575 | August 30, 24 |        0.0035874 |
 | 2024-08-29 |  11.02 |  11.2  | 10.99 |   11.11 |      10.96 | 44989200 |           44989200 |     0.09 |         0.8167  | 11.08   | August 29, 24 |        0.008167  |
