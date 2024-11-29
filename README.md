@@ -14,7 +14,7 @@ Technologies: OCaml, Reason</p>
 An implementation of [Hazelnut: A Bidirectionally Typed Structure Editor Calculus](https://dl.acm.org/doi/10.1145/3009837.3009900). Implemented core features of Hazelnut in Reason (OCaml), focusing on bidirectional type synthesis and cursor erasure for functional expressions. Developed key modules for handling higher-order types, expressions, and their cursors, ensuring accurate type compatibility. The building of a hazelnut expression and its type synthesis can be viewed by using the webapp.  
 <p> 
 Technologies: Reason</p>
-
+ 
 ## Performance Predictions in TB and HIV
 #### [Report](https://reevafaisal.github.io/Performance-Predictions-in-TB-HIV/index.html) | 11/2024  
 This project leverages logistic regression to predict country-specific mortality risks for Tuberculosis (TB) and dual-burden TB-HIV patients. Using data from the Tuberculosis Burden by Country dataset, it evaluates the role of Case Detection Rate (CDR) in determining mortality-to-incidence ratios (MIRs). Feature engineering techniques like logarithmic scaling and quantile transformation were applied to address data skewness and improve model performance. The final model demonstrated a 25.4% improvement in AUC for dual-burden mortality predictions, emphasizing the importance of early case detection in mitigating public health challenges.
