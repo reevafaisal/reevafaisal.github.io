@@ -23,6 +23,8 @@ remote_theme: reevafaisal/jekyll-theme-minimalistic
 navigation:
   - name: Future of Programming Lab
     link: ./index.html#future-of-programming-lab
+  - name: Performance Predictions in TB and HIV
+    link: ./index.html#performance-predictions-in-tb-and-hiv
   - name: Insta485 Client-Side Web Application
     link: ./index.html#insta485-client-side-web-application
   - name: Data Retrieval and Parsing using Web Scraping and APIs
@@ -31,7 +33,7 @@ navigation:
     link: ./index.html#eda-and-visualizations-toolkit
   - name: Travelling Salesman Problem
     link: ./index.html#travelling-salesman-problem
-  - name: Pixel Crafter
-    link: ./index.html#pixel-crafter
+  # - name: Pixel Crafter
+  #   link: ./index.html#pixel-crafter
   # - name: Insta485 Client-Side Web Application
   #   link: ./index.html#Insta485 Client-Side Web Application 
