@@ -19,7 +19,7 @@ Technologies: Reason</p>
 #### [Report](https://reevafaisal.github.io/Performance-Predictions-in-TB-HIV/index.html) | 11/2024  
 This project leverages logistic regression to predict country-specific mortality risks for Tuberculosis (TB) and dual-burden TB-HIV patients. Using data from the Tuberculosis Burden by Country dataset, it evaluates the role of Case Detection Rate (CDR) in determining mortality-to-incidence ratios (MIRs). Feature engineering techniques like logarithmic scaling and quantile transformation were applied to address data skewness and improve model performance. The final model demonstrated a 25.4% improvement in AUC for dual-burden mortality predictions, emphasizing the importance of early case detection in mitigating public health challenges.
 <div style="margin-bottom: 5px;">
-  <iframe src="comparison.html" width="100%" height="600px" frameborder="0" scrolling="yes" style="margin-bottom: 5px;"></iframe>
+  <iframe src="comparison.html" width="100%" height="550px" frameborder="0" scrolling="yes" style="margin-bottom: 5px;"></iframe>
 </div>
 <p> 
 Technologies: Python, Pandas, Scikit-learn </p>
