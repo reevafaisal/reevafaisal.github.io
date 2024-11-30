@@ -34,9 +34,9 @@
 <div style="margin-bottom: 5px;">
   <iframe src="plots/Scatter.html" width="100%" height="550px" frameborder="0" scrolling="yes" style="margin-bottom: 5px;"></iframe>
 </div>
-<div style="margin-bottom: 5px;">
+<!-- <div style="margin-bottom: 5px;">
   <iframe src="plots/comparison.html" width="100%" height="550px" frameborder="0" scrolling="yes" style="margin-bottom: 5px;"></iframe>
-</div>
+</div> -->
 <p> 
 Technologies: Python, Pandas, Scikit-learn </p>
 
