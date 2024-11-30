@@ -1,6 +1,6 @@
 # Projects
 ## Future of Programming Lab
-  ### Hazel - Tutorial Systems
+  ### Hazel - Tutorial Systems  
   #### [GitHub Repo](https://github.com/hazelgrove/hazel/pull/1330) | [Pull Request](https://github.com/hazelgrove/hazel/pull/1414) | 07/2024 – present  
   - My current project involves building, end-to-end, a new tutorial mode functionality for Hazel to allow new users and students to grasp basic functional programming concepts.
   - I am working with editor states and ensuring that new users can interact with the syntax and functionality of the programming environment.
@@ -13,7 +13,7 @@
   <p> 
   Technologies: OCaml, Reason</p>
 
-  ### DIY Hazelnut
+  ### DIY Hazelnut  
   #### [GitHub Repo](https://github.com/reevafaisal/diyHazelnut) | 06/2024  
   - An implementation of [Hazelnut: A Bidirectionally Typed Structure Editor Calculus](https://dl.acm.org/doi/10.1145/3009837.3009900).
   - Implemented core features of Hazelnut in Reason (OCaml), focusing on bidirectional type synthesis and cursor erasure for functional expressions.
@@ -22,7 +22,7 @@
   <p> 
   Technologies: Reason</p>
   
-## Performance Predictions in TB and HIV
+## Performance Predictions in TB and HIV  
 #### [Report](https://reevafaisal.github.io/Performance-Predictions-in-TB-HIV/index.html) | 11/2024  
 - This project leverages logistic regression to measure the predictive performance of Case Detection Rate (CDR) in country-specific mortality outcomes for patients with a dual burden of Tuberculosis (TB) and Human Immunodeficiency Viruses (HIV). 
 - Using data from the Tuberculosis Burden by Country dataset, it evaluates the role of CDR in determining mortality-to-incidence ratios (MIRs).
@@ -36,10 +36,14 @@ Technologies: Python, Pandas, Scikit-learn </p>
 
 ## Insta485 Client-Side Web Application
 #### [Demo](http://ec2-18-219-187-14.us-east-2.compute.amazonaws.com/) | 10/2024  
-Developed an Instagram clone as part of a three-project sequence for EECS 485, focusing on building client-side dynamic pages using JavaScript, React, and AJAX. Refactored the server-side logic from Flask into a REST API to handle asynchronous data requests, enabling real-time updates for user interactions such as likes, comments, and infinite scrolling without page reloads. The project also includes features like double-click to like and seamless data fetching. The following credentials can be used to test the system, username: awdeorio, password: chickens. To login as any of the other users within the app, the password for login is "password".
+- Developed an Instagram clone as part of a three-project sequence for EECS 485, focusing on building client-side dynamic pages using JavaScript, React, and AJAX.
+- Refactored the server-side logic from Flask into a REST API to handle asynchronous data requests, enabling real-time updates for user interactions such as likes, comments, and infinite scrolling without page reloads.
+- The project also includes features like double-click to like and seamless data fetching.
+- The following credentials can be used to test the system, username: awdeorio, password: chickens.
+- To login as any of the other users within the app, the password for login is "password".
 <p>
-  <img src="demo-infinitescroll-ezgif.com-video-to-gif-converter.gif" width="240px">
-  <img src="demo-insta485-heart-ezgif.com-video-to-gif-converter.gif" width="240px">
+  <img src="demo-infinitescroll-ezgif.com-video-to-gif-converter.gif" width="290px">
+  <img src="demo-insta485-heart-ezgif.com-video-to-gif-converter.gif" width="290px">
 </p>  
 Technologies: Python, SQL, HTML, CSS, JavaScript, React, Flask, AWS  
 
