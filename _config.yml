@@ -6,7 +6,7 @@ description: >
 logo: "Screenshot 2024-10-13 at 4.04.46 PM_batcheditor_fotor.jpg"
 email: reevaf@umich.edu
 # theme: jekyll-theme-minimal
-favicon: true
+favicon: true 
 plugins: 
   - jekyll-remote-theme
 
