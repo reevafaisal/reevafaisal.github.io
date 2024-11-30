@@ -1,23 +1,33 @@
 # Projects
 ## Future of Programming Lab
-### Hazel - Tutorial Systems
-#### [GitHub Repo](https://github.com/hazelgrove/hazel/pull/1330) | [PR](https://github.com/hazelgrove/hazel/pull/1414) | 07/2024 – present  
-My current project involves creating and adding a new tutorial mode functionality to Hazel for new users to adapt to the interface. I am working with editor states and ensuring that new users can interact with and receive feedback for their code to familiarize themselves with the syntax and functionality of the programming environment. (PI: Cyrus Omar, Assistant Professor).
-<p>
-  <iframe src="https://hazel.org/build/dev/" width="100%" height="400" frameborder="0" scrolling="yes"></iframe>  
-</p>  
-<p> 
-Technologies: OCaml, Reason</p>
+  ### Hazel - Tutorial Systems
+  #### [GitHub Repo](https://github.com/hazelgrove/hazel/pull/1330) | [Pull Request](https://github.com/hazelgrove/hazel/pull/1414) | 07/2024 – present  
+  - My current project involves building, end-to-end, a new tutorial mode functionality for Hazel to allow new users and students to grasp basic functional programming concepts.
+  - I am working with editor states and ensuring that new users can interact with the syntax and functionality of the programming environment.
+  - I am also working on creating a new feature that will target giving relevant and directed feedback on user implementations.
+  (PI: Cyrus Omar, Assistant Professor)
 
-### DIY Hazelnut
-#### [GitHub Repo](https://github.com/reevafaisal/diyHazelnut) | 06/2024  
-An implementation of [Hazelnut: A Bidirectionally Typed Structure Editor Calculus](https://dl.acm.org/doi/10.1145/3009837.3009900). Implemented core features of Hazelnut in Reason (OCaml), focusing on bidirectional type synthesis and cursor erasure for functional expressions. Developed key modules for handling higher-order types, expressions, and their cursors, ensuring accurate type compatibility. The building of a hazelnut expression and its type synthesis can be viewed by using the webapp.  
-<p> 
-Technologies: Reason</p>
+  <p>
+    <iframe src="https://hazel.org/build/dev/" width="100%" height="400" frameborder="0" scrolling="yes"></iframe>  
+  </p>  
+  <p> 
+  Technologies: OCaml, Reason</p>
+
+  ### DIY Hazelnut
+  #### [GitHub Repo](https://github.com/reevafaisal/diyHazelnut) | 06/2024  
+  - An implementation of [Hazelnut: A Bidirectionally Typed Structure Editor Calculus](https://dl.acm.org/doi/10.1145/3009837.3009900).
+  - Implemented core features of Hazelnut in Reason (OCaml), focusing on bidirectional type synthesis and cursor erasure for functional expressions.
+  - Developed key modules for handling higher-order types, expressions, and their cursors, ensuring accurate type compatibility.
+  - The building of a hazelnut expression and its type synthesis can be viewed by using the webapp.  
+  <p> 
+  Technologies: Reason</p>
   
 ## Performance Predictions in TB and HIV
 #### [Report](https://reevafaisal.github.io/Performance-Predictions-in-TB-HIV/index.html) | 11/2024  
-This project leverages logistic regression to predict country-specific mortality risks for Tuberculosis (TB) and dual-burden TB-HIV patients. Using data from the Tuberculosis Burden by Country dataset, it evaluates the role of Case Detection Rate (CDR) in determining mortality-to-incidence ratios (MIRs). Feature engineering techniques like logarithmic scaling and quantile transformation were applied to address data skewness and improve model performance. The final model demonstrated a 25.4% improvement in AUC for dual-burden mortality predictions, emphasizing the importance of early case detection in mitigating public health challenges.
+- This project leverages logistic regression to measure the predictive performance of Case Detection Rate (CDR) in country-specific mortality outcomes for patients with a dual burden of Tuberculosis (TB) and Human Immunodeficiency Viruses (HIV). 
+- Using data from the Tuberculosis Burden by Country dataset, it evaluates the role of CDR in determining mortality-to-incidence ratios (MIRs).
+- Feature engineering techniques such as logarithmic scaling and quantile transformation were applied to the baseline model to address data skewness and improve model performance.
+- The final model demonstrated an improvement in AUC for dual-burden mortality predictions, emphasizing the importance of early case detection in mitigating public health challenges.
 <div style="margin-bottom: 5px;">
   <iframe src="comparison.html" width="100%" height="550px" frameborder="0" scrolling="yes" style="margin-bottom: 5px;"></iframe>
 </div>
