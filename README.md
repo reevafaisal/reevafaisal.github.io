@@ -1,7 +1,7 @@
 # Projects
 ## Future of Programming Lab
-  ### Hazel - Tutorial Systems  
-  #### [GitHub Repo](https://github.com/hazelgrove/hazel/pull/1330) | [Pull Request](https://github.com/hazelgrove/hazel/pull/1414) | 07/2024 – present  
+###   Hazel - Tutorial Systems  
+####   [GitHub Repo](https://github.com/hazelgrove/hazel/pull/1330) | [Pull Request](https://github.com/hazelgrove/hazel/pull/1414) | 07/2024 – present  
   - My current project involves building, end-to-end, a new tutorial mode functionality for Hazel to allow new users and students to grasp basic functional programming concepts.
   - I am working with editor states and ensuring that new users can interact with the syntax and functionality of the programming environment.
   - I am also working on creating a new feature that will target giving relevant and directed feedback on user implementations.
@@ -13,8 +13,8 @@
   <p> 
   Technologies: OCaml, Reason</p>
 
-  ### DIY Hazelnut  
-  #### [GitHub Repo](https://github.com/reevafaisal/diyHazelnut) | 06/2024  
+###   DIY Hazelnut  
+####   [GitHub Repo](https://github.com/reevafaisal/diyHazelnut) | 06/2024  
   - An implementation of [Hazelnut: A Bidirectionally Typed Structure Editor Calculus](https://dl.acm.org/doi/10.1145/3009837.3009900).
   - Implemented core features of Hazelnut in Reason (OCaml), focusing on bidirectional type synthesis and cursor erasure for functional expressions.
   - Developed key modules for handling higher-order types, expressions, and their cursors, ensuring accurate type compatibility.
