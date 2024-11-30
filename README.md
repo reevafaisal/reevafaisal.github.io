@@ -29,6 +29,10 @@
 - Feature engineering techniques such as logarithmic scaling and quantile transformation were applied to the baseline model to address data skewness and improve model performance.
 - The final model demonstrated an improvement in AUC for dual-burden mortality predictions, emphasizing the importance of early case detection in mitigating public health challenges.
 <div style="margin-bottom: 5px;">
+  <iframe src="MIR_TB_HIV.html" width="100%" height="550px" frameborder="0" scrolling="yes" style="margin-bottom: 5px;"></iframe>
+</div>
+
+<div style="margin-bottom: 5px;">
   <iframe src="comparison.html" width="100%" height="550px" frameborder="0" scrolling="yes" style="margin-bottom: 5px;"></iframe>
 </div>
 <p> 
