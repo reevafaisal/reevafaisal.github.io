@@ -6,7 +6,7 @@
   - I am working with editor states and ensuring that new users can interact with the syntax and functionality of the programming environment.
   - I am also working on creating a new feature that will target giving relevant and directed feedback on user implementations.
   (PI: Cyrus Omar, Assistant Professor) 
-
+ 
   <p>
     <iframe src="https://hazel.org/build/dev/" width="100%" height="400" frameborder="0" scrolling="yes"></iframe>  
   </p>  
