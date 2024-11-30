@@ -49,8 +49,8 @@ Technologies: Python, Pandas, Scikit-learn </p>
 - The following credentials can be used to test the system, username: awdeorio, password: chickens.
 - To login as any of the other users within the app, the password for login is "password".
 <p>
-  <img src="demo-infinitescroll-ezgif.com-video-to-gif-converter.gif" width="290px">
-  <img src="demo-insta485-heart-ezgif.com-video-to-gif-converter.gif" width="290px">
+  <img src="demo-infinitescroll-ezgif.com-video-to-gif-converter.gif" width="350px">
+  <img src="demo-insta485-heart-ezgif.com-video-to-gif-converter.gif" width="350px">
 </p>  
 Technologies: Python, SQL, HTML, CSS, JavaScript, React, Flask, AWS  
 
